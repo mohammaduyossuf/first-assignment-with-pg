@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/banner/banner3.png");
+}
+header .header-title{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: 400px;
+}
+ .header-title h1{
+    color: white;
+    font-size: 60px;
+}
+.header-title p{
+    color: white;
+    
+}
+.header-title .btn-primary{
+    /* color: white; */
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+
+  /* start banner pages */
+
+.banner{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.right-banner{
+    margin-left: 100px;
+}
+.right-banner h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.right-banner .first-peragraph{
+    padding-bottom: 10px;
+}
+.material-symbols-outlined{
+    color: rgb(35, 240, 35);  
+}
+
+/* my skils pages */
+ 
+.my-skils{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+.my-skils hr{
+    width: 80%;
+    margin-left: 150px;
+}
+.my-skils h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.skils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+    padding-top: 20px;
+}
+.skil{
+    border: none;
+    margin-right: 20px;
+    height: 300px;
+}
+.skil img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 0.4px rgb(90, 87, 87);
+}
+.skil h3{
+    padding-bottom: 10px;
+}
+.skil p{
+    line-height: 20px;
+    padding: 0px 20px;
+}
+
+
+/* start second banner */
+
+.second-banner{
+    width: 100%;
+    height: 50vh;
+    margin-top: 150px;
+}
+.second-banner h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    
+}
+.second-banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.second-banner-container h3{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.second-banner-container p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.second-banner-container .icon{
+    margin-right: 130px;
+}
+
+/* third banner start */
+
+.third-banner{
+    width: 100%;
+    height: 60vh;
+}
+.contact{
+
+    background-image: url("images/watch.png");
+    background-repeat: no-repeat;
+    background: linear-gradient(to right,cornflowerblue,rgb(154, 185, 154));
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contact h2{
+    color: white;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.contact .btn-primary{
+    margin-left: 50px;
+    border: none;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: cornflowerblue;
+    
+}
+
+/* start footer pages */
+
+footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 75vh;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin-left: 230px;
+    padding-top: 130px;
+}
+
+.footer-left h1{
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+.footer-left p{
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.footer-right {
+     padding-left: 300px;    
+}
+.footer-right h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.footer-right .btn-black{
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    padding: 20px;
+    padding-right: 150px;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    justify-content: left;
+}
+.footer-right .btn-cornblue{
+    background: rgb(45, 101, 206);
+    margin-top: 15px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size:20px ;
+    font-weight: bold;
+    width: 160px;
+    height: 60px;
+}
